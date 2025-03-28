@@ -1,0 +1,202 @@
+/* General Styles */
+body {
+  background-image: url("./pexels-pixabay-2150.jpg");
+  background-color: #121212; /* Darker background for better contrast */
+  font-family: "Arial", sans-serif; /* Modern font */
+  color: #eaeaea; /* Light text color for better readability */
+  line-height: 1.6; /* Improved line height for readability */
+}
+
+/* Title Styles */
+.titlehead {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 3em; /* Increased font size for prominence */
+  text-align: center;
+  margin-top: 50px;
+  color: #0f8643; /* Bright aquamarine */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+/* Container for buttons */
+.back {
+  background-color: #23272a; /* Slightly lighter dark background */
+  color: white;
+  text-align: center;
+  padding: 50px;
+  border-radius: 20px; /* More rounded corners for a softer look */
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5); /* Soft shadow for depth */
+}
+
+/* Button Styles */
+.rockbut {
+  background-color: #664027; /* Material Design Blue */
+  color: rgba(217, 221, 225, 0.9);
+
+  /* Increased size for better touch targets */
+  width: 150px; /* Wider buttons */
+  height: 70px; /* Taller buttons */
+
+  font-size: 2.5em; /* Larger font size for better readability */
+
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+
+  /* Hover properties */
+  &:hover {
+    background-color: #5c6bc0; /* Lighter blue on hover */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+    transform: scale(1.05); /* Slight scaling effect */
+  }
+
+  /* Active properties */
+  &:active {
+    background-color: #3949ab; /* Darker blue on active */
+    transform: translateY(3px) scale(0.97); /* Slight scaling and movement on click */
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2); /* Reduced shadow on active */
+  }
+
+  /* Focus properties */
+  &:focus {
+    outline: 2px solid #ffcc00; /* Yellow outline for focus */
+    outline-offset: 4px; /* Space between outline and button */
+  }
+
+  border: none; /* Removed border for a cleaner look */
+  border-radius: 25px; /* More rounded corners */
+  cursor: pointer;
+  margin: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease; /* Added box-shadow transition */
+}
+
+/* Specific Button Classes with Unique Colors */
+
+.paperbut {
+  background-color: #2d545f; /* Material Design Blue */
+  color: rgba(255, 255, 255, 0.9);
+
+  /* Increased size for better touch targets */
+  width: 150px; /* Wider buttons */
+  height: 70px; /* Taller buttons */
+
+  font-size: 2.5em; /* Larger font size for better readability */
+
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+
+  /* Hover properties */
+  &:hover {
+    background-color: #5c6bc0; /* Lighter blue on hover */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+    transform: scale(1.05); /* Slight scaling effect */
+  }
+
+  /* Active properties */
+  &:active {
+    background-color: #3949ab; /* Darker blue on active */
+    transform: translateY(3px) scale(0.97); /* Slight scaling and movement on click */
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2); /* Reduced shadow on active */
+  }
+
+  /* Focus properties */
+  &:focus {
+    outline: 2px solid #ffcc00; /* Yellow outline for focus */
+    outline-offset: 4px; /* Space between outline and button */
+  }
+
+  border: none; /* Removed border for a cleaner look */
+  border-radius: 25px; /* More rounded corners */
+  cursor: pointer;
+  margin: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease; /* Added box-shadow transition */
+}
+
+.scissorbut {
+  background-color: #452759; /* Material Design Blue */
+  color: rgba(255, 255, 255, 0.9);
+
+  /* Increased size for better touch targets */
+  width: 150px; /* Wider buttons */
+  height: 70px; /* Taller buttons */
+
+  font-size: 2.5em; /* Larger font size for better readability */
+
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+
+  /* Hover properties */
+  &:hover {
+    background-color: #5c6bc0; /* Lighter blue on hover */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+    transform: scale(1.05); /* Slight scaling effect */
+  }
+
+  /* Active properties */
+  &:active {
+    background-color: #3949ab; /* Darker blue on active */
+    transform: translateY(3px) scale(0.97); /* Slight scaling and movement on click */
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2); /* Reduced shadow on active */
+  }
+
+  /* Focus properties */
+  &:focus {
+    outline: 2px solid #ffcc00; /* Yellow outline for focus */
+    outline-offset: 4px; /* Space between outline and button */
+  }
+
+  border: none; /* Removed border for a cleaner look */
+  border-radius: 25px; /* More rounded corners */
+  cursor: pointer;
+  margin: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease; /* Added box-shadow transition */
+}
+
+.Reset {
+  background-color: #596123; /* Material Design Blue */
+  color: rgba(255, 255, 255, 0.9);
+
+  /* Increased size for better touch targets */
+  width: 200px; /* Wider buttons */
+  height: 100px; /* Taller buttons */
+
+  font-size: 2.5em; /* Larger font size for better readability */
+
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+
+  /* Hover properties */
+  &:hover {
+    background-color: #5c6bc0; /* Lighter blue on hover */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+    transform: scale(1.05); /* Slight scaling effect */
+  }
+
+  /* Active properties */
+  &:active {
+    background-color: #3949ab; /* Darker blue on active */
+    transform: translateY(3px) scale(0.97); /* Slight scaling and movement on click */
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2); /* Reduced shadow on active */
+  }
+
+  /* Focus properties */
+  &:focus {
+    outline: 2px solid #ffcc00; /* Yellow outline for focus */
+    outline-offset: 4px; /* Space between outline and button */
+  }
+
+  border: none; /* Removed border for a cleaner look */
+  border-radius: 25px; /* More rounded corners */
+  cursor: pointer;
+  margin: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease; /* Added box-shadow transition */
+}
+
+/* Result and Score Styles */
+.result-style,
+.moves-style,
+.score-style {
+  font-size: 2em; /* Increased font size for visibility */
+  text-align: center;
+  margin-top: 30px;
+  color: #ffffff;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
